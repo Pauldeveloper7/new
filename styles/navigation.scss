@@ -1,0 +1,38 @@
+.navigation {
+    height: 70vh;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    top: 80px;
+    justify-content: center;
+    background-color: black;
+    gap:7px;
+    .topright{
+        position: fixed;
+        right:20px;
+    }
+    .pages{
+        display: flex;
+        gap:20px;
+        flex-direction: column;
+        position: relative;
+        top: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    li{
+        color: white;
+    }
+    li.items{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        text-decoration: none;
+    }
+    
+    .item{
+        text-decoration: none;
+    }
+    }

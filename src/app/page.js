@@ -1,12 +1,14 @@
+'use client'
 import Image from "next/image";
-import styles from "./page.module.css";
+import  "./page.module.css";
 
-export default function Home() {
+// import '@styles/app.scss';
+const page = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        hello world 
-       </div>
-       </main>
-  );
+    <div>
+     <h1>Hello world</h1>
+    </div>
+  )
 }
+
+export default page

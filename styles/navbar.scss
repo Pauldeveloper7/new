@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Petit+Formal+Script&family=Titan+One&display=swap');
+.petit-formal script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.navbar{
+    height:80px;
+    position: fixed;
+    z-index: 101;
+    background-color: black;
+    width: 100vw;
+    // @media screen and (max-width:1265px){
+    //   .link.petit-formal{
+    //     font-size: 20px;
+    //     color: yellow;
+    //     text-align: center;
+    //     font-weight: 30px;
+    //   }
+    // }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    @media screen and (max-width:1318px){
+      .mb.wrapper{
+         display: flex;
+         width: 100vw;
+         height: 80px;
+         justify-content: space-between;
+         background-color: black;
+         color: white;
+         align-items: center;
+      }
+     #hamburger{
+      margin:0px 20px;
+      cursor: pointer;
+      background-color: black;
+      color: white;
+      border:none;
+     }
+     #logoname{
+      margin:0px 10px;
+     }
+      div#pc{
+        display: none;
+      }
+    }
+    @media screen and (min-width:1318px){
+      .mb.wrapper{
+         display: none;  
+      }
+    }
+    div.wrapperlpc{
+      padding:10px 30px;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  } 
+  .item{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+   .left{
+    display:flex;
+    align-items: center;
+    gap:25px;
+   }
+   .center{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+   }
+   .right{
+    display: flex;
+    align-items: center;
+    gap:25px;
+   }
+   .icons{
+    display: flex;
+    gap: 15px;
+    color:#777;
+    cursor:pointer;
+    .cardIcon{
+        position: relative;
+        span{
+            font-size: 12px;
+            width:20px;
+            height:20px;
+            border-radius: 50%;
+            background-color: #2879fe;
+            color:white;
+            position: absolute;
+            right:-10px;
+            top: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+   }
+}
