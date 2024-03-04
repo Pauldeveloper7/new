@@ -1,12 +1,13 @@
 'use client'
-import Image from "next/image";
 import  "./page.module.css";
-
+import Slider from '@components/slider';
+import FeaturedProducts from '@components/FeaturedProducts';
 // import '@styles/app.scss';
 const page = () => {
   return (
     <div>
-     <h1>Hello world</h1>
+      <Slider/>
+      <FeaturedProducts type='Featured'/>
     </div>
   )
 }
